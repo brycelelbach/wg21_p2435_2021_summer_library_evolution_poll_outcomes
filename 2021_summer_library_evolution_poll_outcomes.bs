@@ -94,7 +94,7 @@ Poll 3: Send [[P1206R6]] (`ranges::to`) to Library Working Group for C++23,
 
 <tr>
 <td style="padding-bottom: 16px;">
-Poll 4: Send [[P0533R8]] (`constexpr` For `<cmath> And `<cstdlib>`) to Library
+Poll 4: Send [[P0533R8]] (`constexpr` For `<cmath>` And `<cstdlib>`) to Library
   Working Group for C++23, classified as an addition ([[P0592R4]] bucket 3 item).
 <td>15
 <td>13
