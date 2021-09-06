@@ -1,0 +1,131 @@
+<pre class='metadata'>
+Title: 2021 Summer Library Evolution Poll Outcomes
+Shortname: D2435
+Revision: 0
+Status: D
+Group: WG21
+Audience: WG21
+Editor: Bryce Adelstein Lelbach (he/him/his) — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
+URL: https://wg21.link/P2435R0
+!Source: <a href="https://github.com/brycelelbach/wg21_p2435_2021_summer_library_evolution_poll_outcomes/blob/main/2021_summer_library_evolution_poll_outcomes.bs">GitHub</a>
+Issue Tracking: GitHub https://github.com/brycelelbach/wg21_p2435_2021_summer_library_evolution_poll_outcomes/issues
+Metadata Order: Editor, This Version, Source, Issue Tracking, Project, Audience
+Markup Shorthands: markdown yes
+Toggle Diffs: no
+No Abstract: yes
+Boilerplate: style-syntax-highlighting off
+</pre>
+
+<style>
+table, th, tr, td {
+  border: 2px solid black !important;
+}
+@media (prefers-color-scheme: dark) {
+  table, th, tr, td {
+    border: 2px solid white !important;
+  }
+}
+</style>
+
+# Introduction # {#introduction}
+
+In Summer 2021, the C++ Library Evolution group conducted a series of electronic
+  decision polls [[P2333R0]].
+This paper provides the results of those polls and summarizes the results.
+
+In total, 36 people participated in the polls.
+Some participants opted to not vote on some polls.
+Thank you to everyone who participated, and to the proposal authors for all
+  their hard work!
+
+# Poll Outcomes # {#poll-outcomes}
+
+* SF: Strongly Favor.
+* WF: Weakly Favor.
+* N: Neutral.
+* WA: Weakly Against.
+* SA: Strongly Against.
+
+<table>
+<tr>
+<th style="padding-bottom: 10px;">Poll
+<th>SF
+<th>WF
+<th>N
+<th>WA
+<th>SA
+<th>Outcome
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 1: Make a joint Library Evolution and Evolution plenary to adopt
+  [[P2138R4]] (Rules of Design <=> Wording Engagement) as the official process of
+  the C++ Evolution groups.
+<td>5
+<td>14
+<td>2
+<td>6
+<td>6
+<td>No consensus.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 2: Send [[P2372R1]] (Fixing Locale Handling In Chrono Formatters) to
+  Library Working Group for C++23, classified as an improvement of an existing
+  feature ([[P0592R4]] bucket 2 item), with the recommendation that
+  implementations retroactively apply it to C++20.
+<td>21
+<td>10
+<td>0
+<td>0
+<td>0
+<td>Unanimous consenus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 3: Send [[P1206R6]] (`ranges::to`) to Library Working Group for C++23,
+  classified as an addition ([[P0592R4]] bucket 3 item).
+<td>19
+<td>9
+<td>0
+<td>0
+<td>0
+<td>Unanimous consenus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 4: Send [[P0533R8]] (`constexpr` For `<cmath> And `<cstdlib>`) to Library
+  Working Group for C++23, classified as an addition ([[P0592R4]] bucket 3 item).
+<td>15
+<td>13
+<td>2
+<td>1
+<td>0
+<td>Consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 5: Send [[P2273R2]] (Making `unique_ptr` `constexpr`) to Library Working
+  Group for C++23, classified as an improvement of an existing feature
+  ([[P0592R4]] bucket 2 item).
+<td>17
+<td>16
+<td>0
+<td>0
+<td>0
+<td>Unanimous consenus in favor.
+
+</table>
+
+# Selected Poll Comments # {#selected-poll-comments}
+
+## Poll 1: [[P2138R4]] Rules of Design <=> Wording Engagement ## {#poll-1}
+
+## Poll 2: [[P2372R1]] Fixing Locale Handling In Chrono Formatters ## {#poll-2}
+
+## Poll 3: [[P1206R6]] `ranges::to` ## {#poll-3}
+
+## Poll 4: [[P0533R8]] `constexpr` For `<cmath>` And `<cstdlib>` ## {#poll-4}
+
+## Poll 5: [[P2273R2]] Making `unique_ptr` `constexpr` ## {#poll-5}
+
