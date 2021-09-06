@@ -140,7 +140,7 @@ Poll 5: Send [[P2273R2]] (Making `unique_ptr` `constexpr`) to Library Working
 >
 > So I'm conflicted.
 >
-> -- Weakly Against
+> — Weakly Against
 
 > This paper will have disastrous consequences on WG21 that the committee, its
 > members, and proposal writers are wholly unprepared to deal with. If the idea
@@ -150,24 +150,24 @@ Poll 5: Send [[P2273R2]] (Making `unique_ptr` `constexpr`) to Library Working
 > moves through to plenary and is adopted I can see several people simply not
 > participating in C++ anymore.
 >
-> -- Strongly Against
+> — Strongly Against
 
 > It seems as a freezing current bad process which detract people and hinders
 > getting new committee members.
 >
-> -- Weakly Against
+> — Weakly Against
 
 > I'm in favor of strengthening, clarifying, and formalizing the criteria for
 > papers to advance, as I think it will improve quality. However, I worry that
 > this may add complexity to our process, which is already outdated and arcane.
 >
-> -- Neutral
+> — Neutral
 
 > While I think this describes current practice reasonably well, which is
 > helpful, (thus I weakly favor) I'm concerned that the this is might increase
 > the perceived barriers to entry to contributing to WG21.
 >
-> -- Weakly Favor
+> — Weakly Favor
 
 > The problems this process aims to address are plainly real: lots of our
 > limited wording-group bandwidth is consumed by reviewing wording that is
@@ -196,7 +196,7 @@ Poll 5: Send [[P2273R2]] (Making `unique_ptr` `constexpr`) to Library Working
 > them. In particular, having a "park for further design feedback" stage in
 > addition to a "Tentatively Wording" stage seems gratuitous.
 >
-> -- Strongly Against
+> — Strongly Against
 
 > This proposal will have the following effects if adopted by LEWG:
 >
@@ -207,7 +207,7 @@ Poll 5: Send [[P2273R2]] (Making `unique_ptr` `constexpr`) to Library Working
 >
 > Hence it is unconscionable of me to vote anything but strongly against.
 >
-> -- Strongly Against
+> — Strongly Against
 
 > It's not clear to me that injecting more delay into the process is going to
 > result in more actionable feedback and therefore a better quality standard.
@@ -217,7 +217,7 @@ Poll 5: Send [[P2273R2]] (Making `unique_ptr` `constexpr`) to Library Working
 > Additionally, I have not found LEWG wording review to be a worthwhile use of
 > valuable telecon time.
 >
-> -- Weakly Against
+> — Weakly Against
 
 > I'm not a fan of the requirement that wording must exist to advance out of
 > (L)EWG. My experience suggests that this actively causes harm. What we've
@@ -239,7 +239,7 @@ Poll 5: Send [[P2273R2]] (Making `unique_ptr` `constexpr`) to Library Working
 > good wording - requiring EWG/LEWG to see it seems like a completely needless
 > extra step in the process.
 >
-> -- Weakly Against
+> — Weakly Against
 
 > I believe this will do a lot more harm than good, and try to solve non-problems.
 >
@@ -285,30 +285,30 @@ Poll 5: Send [[P2273R2]] (Making `unique_ptr` `constexpr`) to Library Working
 > author has to travel twice, which might not be possible. Maybe we can
 > advertise the status of papers more clearly so that no one is surprised.
 >
-> -- Strongly Against
+> — Strongly Against
 
 > It would indeed be useful to recognize the importance of providing wording. I
 > fear we might find our best wordsmiths overflowing with requests, however,
 > which explains why I used "weakly" instead of "strongly" for my vote.
 >
-> -- Weakly Favor
+> — Weakly Favor
 
 > Having been asked about the process for getting a proposal into the standard,
 > I'm happy to have documentation to which I can point. I do have minor
 > concerns about finding wordsmiths, but I feel that can be worked out later if
 > it becomes truly problematic.
 >
-> -- Weakly Favor
+> — Weakly Favor
 
 > We need a checklist and a description for how proposals flow through the
 > committee; it's unreasonable to continue to do that in an ad-hoc manner.
 >
-> -- Strongly Favor
+> — Strongly Favor
 
 > I very much like the process clarification and agree this has been the
 > historical golden standard.
 >
-> -- Strongly Favor
+> — Strongly Favor
 
 ## Poll 2: [[P2372R1]] Fixing Locale Handling In Chrono Formatters ## {#poll-2}
 
@@ -318,78 +318,78 @@ Poll 5: Send [[P2273R2]] (Making `unique_ptr` `constexpr`) to Library Working
 > released. Adoption isn't that fast, and any code using new features must be
 > new code, and new code isn't hard to fix.
 >
-> -- Strongly Favor
+> — Strongly Favor
 
 > We want to enable locale-independent formatting as much as possible, while
 > also making explicit locale-dependent formatting possible where needed.
 >
-> -- Strongly Favor
+> — Strongly Favor
 
 > It's unfortunate that we shipped this broken, but we can't reclaim
 > consistency unless we deal with this now, so we should do so.
 >
-> -- Weakly Favor
+> — Weakly Favor
 
 > This fixes an unpleasant inconsistency in `std::format`. I only wish the fix
 > had come two years ago; I dislike continuing to change C++20 after it has
 > shipped, as it adds uncertainty for implementers
 >
-> -- Weakly Favor
+> — Weakly Favor
 
 > Still not enjoying retroactive application [of changes to C++20].
 >
-> -- Weakly Favor
+> — Weakly Favor
 
 ## Poll 3: [[P1206R6]] `ranges::to` ## {#poll-3}
 
 > Converting a range to a concrete container should be easier, and this makes
 > it so.
 >
-> -- Strongly Favor
+> — Strongly Favor
 
 > A long-standing complaint from our developers comes from the verbosity of
 > converting one container to another. The additions proposed here should help
 > alleviate some of those complaints while also making ranges more attractive
 > for newcomers.
 >
-> -- Strongly Favor
+> — Strongly Favor
 
 > I've recently worked on a project that started using boost::string_view
 > heavily (C++17 wasn't available). I have become painfully aware of how
 > awkward it is to have views and ranges without convenient conversions between
 > a view and a container. We need something like ranges::to in the standard.
 >
-> -- Weakly Favor
+> — Weakly Favor
 
 > The bullet points in the specification of ranges::to don't allow for
 > construction using ranges::begin(r) and ranges::end(r), even though that is
 > described as one of the options earlier in the document.
 >
-> -- Weakly Favor
+> — Weakly Favor
 
 > The new from_range_t design is a lot more extensible, easy to diagnose, and
 > efficient.
 >
-> -- Weakly Favor
+> — Weakly Favor
 
 ## Poll 4: [[P0533R8]] `constexpr` For `<cmath>` And `<cstdlib>` ## {#poll-4}
 
 > It is a significant improvement in applicability of constexpr in real-world
 > projects dealing with FP arithmetic.
 >
-> -- Strongly Favor
+> — Strongly Favor
 
 > The function proposed in the paper, are indeed looking to be "simple", i.e.
 > not more complicated as few operators. Not including them, will lead to
 > user's implementation, that may lead to more subtle bugs.
 >
-> -- Strongly Favor
+> — Strongly Favor
 
 > The worries seemed to be about implementability with respect to errno, but
 > that aspect of the problem is now more documented and there seems to be
 > implementation experience on at least one library
 >
-> -- Strongly Favor
+> — Strongly Favor
 
 > Despite the many concerns raised, I still don't think this makes the status
 > quo any worse as regard to constexpr floating point inconsistencies between
@@ -402,7 +402,7 @@ Poll 5: Send [[P2273R2]] (Making `unique_ptr` `constexpr`) to Library Working
 > People will rely on target maths can make sure their operations are not
 > constant-folded. We should encourage more work in this area though!
 >
-> -- Weakly Favor
+> — Weakly Favor
 
 > I like P0533, however, sqrt should also be constexpr. It deserves special
 > treatment because the IEEE standard gives it special treatment: it is the
@@ -410,12 +410,12 @@ Poll 5: Send [[P2273R2]] (Making `unique_ptr` `constexpr`) to Library Working
 > exact (see IEEE 754-2008, sec 5.4.1). ("Exact" meaning that its error is less
 > than 0.5 ulp)
 >
-> -- Strongly Favor
+> — Strongly Favor
 
 > Not totally convinced this is the best strategy, but I don't have a better
 > suggestion.
 >
-> -- Neutral
+> — Neutral
 
 > The motivation is there, but I'm uncomfortable building more on top of the
 > shaky foundation of constexpr floating point. We need a paper and plenary
@@ -431,20 +431,20 @@ Poll 5: Send [[P2273R2]] (Making `unique_ptr` `constexpr`) to Library Working
 > Something besides GCCs constant folding implementation really ought to be
 > provided. The existence of builtins isn't sufficient.
 >
-> -- Weakly Against
+> — Weakly Against
 
 ## Poll 5: [[P2273R2]] Making `unique_ptr` `constexpr` ## {#poll-5}
 
 > P2273's intro says it all: without P2273, using new or delete in a
 > constexpr-context would force us back to a pre-c++11 memory-management era.
 >
-> -- Strongly Favor
+> — Strongly Favor
 
 > There seems to be no reason not to do this anymore (I've faced a situation
 > where this would have been useful just last week and was surprised it did not
 > work as I expected it to).
 >
-> -- Strongly Favor
+> — Strongly Favor
 
 > It continues to be a goal to make compile-time programming as similar as
 > possible to runtime programming, to allow as much code as possible to be
@@ -452,9 +452,9 @@ Poll 5: Send [[P2273R2]] (Making `unique_ptr` `constexpr`) to Library Working
 > of undesirable constructs like manual memory management by making the
 > preferred replacements unavailable during constant evaluation.
 >
-> -- Weakly Favor
+> — Weakly Favor
 
 > This seems a straightforward change enabling some use cases; but the paper
 > itself does appear to lack strong motivation so I only weakly support it.
 >
-> -- Weakly Favor
+> — Weakly Favor
