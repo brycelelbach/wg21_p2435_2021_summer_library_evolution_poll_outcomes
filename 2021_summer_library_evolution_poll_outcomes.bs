@@ -30,7 +30,7 @@ table, th, tr, td {
 # Introduction # {#introduction}
 
 In Summer 2021, the C++ Library Evolution group conducted a series of electronic
-  decision polls [[P2333R0]].
+  decision polls [[P2420R0]].
 This paper provides the results of those polls and summarizes the results.
 
 In total, 36 people participated in the polls.
