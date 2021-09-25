@@ -1,8 +1,8 @@
 <pre class='metadata'>
 Title: 2021 Summer Library Evolution Poll Outcomes
-Shortname: P2435
-Revision: 1
-Status: P
+Shortname: D2435
+Revision: 2
+Status: D
 Group: WG21
 Audience: WG21
 Editor: Bryce Adelstein Lelbach (he/him/his) — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
